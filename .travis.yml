@@ -23,6 +23,7 @@ matrix:
     - env: IMAGE=maven:3-jdk-8
     - env: IMAGE=maven:3-jdk-11
     - name: Linux ARM64
+      env: IMAGE=maven:3-jdk-11
       arch: arm64-graviton2
       virt: lxd
       group: edge
